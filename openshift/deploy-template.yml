@@ -11,7 +11,7 @@ objects:
 - apiVersion: batch/v1
   kind: Job
   metadata:
-    name: deploy-job-${JOBID}
+    name: deploy-job
   spec:
     backoffLimit: 5
     template:
